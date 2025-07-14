@@ -16,6 +16,7 @@ import Applicants from './components/admin/Applicants'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import OTPVerification from './components/auth/OTPverification'
 import Payment from './components/Payment'
+import { Analytics } from "@vercel/analytics/react"
 
 
 
