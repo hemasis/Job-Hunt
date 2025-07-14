@@ -16,7 +16,7 @@ import Applicants from './components/admin/Applicants'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import OTPVerification from './components/auth/OTPverification'
 import Payment from './components/Payment'
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react"    // Importing Analytics from Vercel
 
 
 
@@ -93,6 +93,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={appRouter} />
+      <Analytics />
     </div>
   )
 }
